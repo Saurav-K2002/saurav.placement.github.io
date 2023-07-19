@@ -1,6 +1,3 @@
-/*
-    Controller written by - Pankaj Tanwar
-*/
 angular
   .module("adminController", ["adminServices"])
 
