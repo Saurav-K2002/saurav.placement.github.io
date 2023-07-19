@@ -8,7 +8,7 @@ exports.add = (req, res) => {
     Feedback.create({
         title : _b.title,
         feedback : _b.feedback,
-        author_name : req.decoded.student_name,
+        author_name : req.decoded.student_name, 
         author_email : req.decoded.college_id + '@' + Constant.emailSuffix,
         timestamp : new Date()
     })
