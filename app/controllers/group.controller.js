@@ -9,7 +9,7 @@ exports.add = (req, res) => {
         Group
             .create({
                 branchCode: _b.branchCode,
-                branchName : _b.branchName,
+                branchName : _b.branchName, 
                 programName :_b.programName,
                 courseDuration: _b.courseDuration
             })
