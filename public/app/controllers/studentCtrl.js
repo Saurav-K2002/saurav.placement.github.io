@@ -1,5 +1,5 @@
 /*
-    Controller written by - Pankaj tanwar
+    Controller written by - Saurav Kumar
 */
 angular.module('studentController',['studentServices','textAngular','fileModelDirective','uploadFileService'])
 
