@@ -1,12 +1,12 @@
 {
   "name": "placementmnit",
   "version": "1.0.0",
-  "description": "Online Web Placement Portal for MNIT",
+  "description": "Online Web Placement Portal for GIFT",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pankaj Tanwar",
+  "author": "Saurav Kumar",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
