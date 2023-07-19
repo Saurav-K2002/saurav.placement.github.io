@@ -8,7 +8,7 @@ exports.getAll = (req, res) => {
         .select('title experience author_name tags created_at')
         .lean()
         .then(interviews => {
-            res.status(200).json({ success : true, interviews : interviews })
+            res.status(200).json({ success : true, interviews : interviews }) 
         })
         .catch(err => {
             console.error(err);
