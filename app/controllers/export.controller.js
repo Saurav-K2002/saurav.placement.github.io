@@ -29,7 +29,7 @@ exports.resumes = (req, res) => {
                 // To Select Particular Fields
                 $project : {
                     "company_name" : 1,
-                    "registered_candidates.resume_url" : 1,
+                    "registered_candidates.resume_url" : 1, 
                     "registered_candidates.student_name" : 1,
                     "registered_candidates.college_id" : 1
                 }
